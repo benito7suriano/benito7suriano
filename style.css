@@ -1,6 +1,10 @@
+/* General */
+
 html {
   font-size: 16px;
 }
+
+/* Jumbotron-Main Section */
 
 #main {
   display: flex;
@@ -23,4 +27,17 @@ html {
   font-size: 3.75rem;
   color: #989898;
   margin: 0;
+}
+
+/* About Me */
+#about-me {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#about-me .container {
+  margin: 1.5em;
 }
