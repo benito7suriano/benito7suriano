@@ -38,6 +38,36 @@ html {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-#about-me .container {
+#about-me .container,
+#projects .container {
   margin: 1.5em;
+}
+
+/* Projects */
+#projects {
+  display: flex;
+  width: 90%;
+  margin: 0 auto;
+  justify-content: space-between;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Travel and Living */
+#travel-and-living {
+  display: flex;
+  width: 90%;
+  margin: 0 auto;
+  justify-content: space-between;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.spot {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100px;
+  height: 100px;
+  border-radius: 100px;
+  border: 2px solid grey;
 }
