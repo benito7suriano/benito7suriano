@@ -38,6 +38,12 @@ html {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+#about-me img {
+  width: 35%;
+  height: 35%;
+  margin: 0 auto;
+}
+
 #about-me .container,
 #projects .container {
   margin: 1.5em;
