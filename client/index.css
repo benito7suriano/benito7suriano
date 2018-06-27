@@ -1,0 +1,80 @@
+/* General */
+
+html {
+  font-size: 16px;
+}
+
+/* Jumbotron-Main Section */
+
+#main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+#main-title {
+  font-family: 'BlairMdITC TT';
+  font-size: 5rem;
+  color: #989898;
+  margin: 0;
+}
+
+#intro {
+  font-family: 'Bradley Hand';
+  font-size: 3.75rem;
+  color: #989898;
+  margin: 0;
+}
+
+/* About Me */
+#about-me {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#about-me img {
+  width: 35%;
+  height: 35%;
+  margin: 0 auto;
+}
+
+#about-me .container,
+#projects .container {
+  margin: 1.5em;
+}
+
+/* Projects */
+#projects {
+  display: flex;
+  width: 90%;
+  margin: 0 auto;
+  justify-content: space-between;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Travel and Living */
+#travel-and-living {
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+  padding: 20rem 0;
+  justify-content: space-between;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.spot {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 125px;
+  height: 125px;
+  border-radius: 125px;
+  border: 2px solid grey;
+}
