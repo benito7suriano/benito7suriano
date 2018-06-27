@@ -73,8 +73,8 @@ html {
   justify-content: center;
   align-items: center;
   text-align: center;
-  width: 100px;
-  height: 100px;
-  border-radius: 100px;
+  width: 125px;
+  height: 125px;
+  border-radius: 125px;
   border: 2px solid grey;
 }
