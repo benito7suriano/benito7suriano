@@ -61,8 +61,9 @@ html {
 /* Travel and Living */
 #travel-and-living {
   display: flex;
-  width: 90%;
+  width: 80%;
   margin: 0 auto;
+  padding: 20rem 0;
   justify-content: space-between;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
